@@ -4,6 +4,55 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
-  m_configObjects: {}
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/start.unity
+    guid: 38bef8ce6dcb7974ea63c2cc59a66cd8
+  - enabled: 1
+    path: Assets/Scenes/main.unity
+    guid: b9a00b1cfc181e343a87b645355688d1
+  - enabled: 1
+    path: Assets/Scenes/1.unity
+    guid: a2f8ee31c80053c4eab55ef882f61fe4
+  - enabled: 1
+    path: Assets/Scenes/2.unity
+    guid: 8db36218948efa74cba3481597e90e42
+  - enabled: 1
+    path: Assets/Scenes/3.unity
+    guid: 635c50819e64e5b4fa9d2942fe0284c0
+  - enabled: 1
+    path: Assets/Scenes/1Bad.unity
+    guid: 9d394cf2f9213fd43bf06d2c5feaf8ab
+  - enabled: 1
+    path: Assets/Scenes/1Good.unity
+    guid: bd0d26a9cf425524ea9bdef9338c8a15
+  - enabled: 1
+    path: Assets/Scenes/1Normal.unity
+    guid: 25f12126fbe0df745819c12f4a005ce8
+  - enabled: 1
+    path: Assets/Scenes/3Bad.unity
+    guid: c1760e0e9643c0741bf3b656092ce24b
+  - enabled: 1
+    path: Assets/Scenes/3Good.unity
+    guid: 40767144a9de6994bb52a10f6f4fa136
+  - enabled: 1
+    path: Assets/Scenes/3Normal.unity
+    guid: 5e5005bb8134f484283164004980e714
+  - enabled: 1
+    path: Assets/Scenes/2Good.unity
+    guid: 6dc46180591d759498e2d6d6f956dfa8
+  - enabled: 1
+    path: Assets/Scenes/2Normal.unity
+    guid: f8aa8e2a687ed7149be14fb45254b592
+  - enabled: 1
+    path: Assets/Scenes/2Bad.unity
+    guid: ec1adbb75ce2834408d2cb903c9c33b8
+  - enabled: 1
+    path: "Assets/Scenes/\uC624\uB514\uC624 \uC870\uC815.unity"
+    guid: f7b39626ab9c4cb439246d071098a13f
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 3f8a668e80505ab45bdd5213d07129bf, type: 3}
   m_UseUCBPForAssetBundles: 0
