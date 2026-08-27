@@ -4,7 +4,7 @@ using System.Collections;
 
 public class note : MonoBehaviour
 {
-    public float speed = 1.0f;
+    public float speed = 7.0f;
     public float destroyX = -6.2f;
     private ScoreChanger scoreChanger;
     private AudioManage _AudioManage;
@@ -27,6 +27,10 @@ public class note : MonoBehaviour
                 transform.position = new Vector3(-6.2f, 2.5f, 1);
             }
             if (_AudioManage.S123 == 3)
+            {
+                transform.position = new Vector3(-6.2f, 2.5f, 1);
+            }
+            if (_AudioManage.S123 == 4)
             {
                 transform.position = new Vector3(-6.2f, 2.5f, 1);
             }

@@ -318,13 +318,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df6a1f5784e7a1343a86ea9944aa47af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
-  note1: {fileID: 3187618271105769419, guid: 8f111e0134d675d42877544249c8fa85, type: 3}
-  note2: {fileID: 1371741097148493338, guid: d984b638d78aa2246bb6ef79cea69291, type: 3}
-  note3: {fileID: 2008438603038587501, guid: 4c4e1be5434b00c4fb86ab528f5daae6, type: 3}
+  note1: {fileID: 2760992832424079248, guid: 3788c04db621dd7469e7a7ff6ad06efc, type: 3}
+  note2: {fileID: 4333456008980760201, guid: 7a65c15cab4df5848abf7a1d61ad0559, type: 3}
+  note3: {fileID: 2008698925596915370, guid: 6f1e811ceb3d3634d81dcb91eceeec10, type: 3}
   Audio1: {fileID: 8300000, guid: afda0d3301faf274aa7c05abbc9cab06, type: 3}
   Audio2: {fileID: 8300000, guid: 6f8879ef5d58bc948803a4f4f85e52ef, type: 3}
   Audio3: {fileID: 8300000, guid: 43f29d63392b71a43a009b2850815fc1, type: 3}
-  Audio4: {fileID: 0}
+  Audio4: {fileID: 8300000, guid: 19754773ba81c4546aa95a02997612d3, type: 3}
   time: 0
   Delay: 2.685839
   audioStartDelay: 5
@@ -796,7 +796,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 80042678}
         m_TargetAssemblyTypeName: SceneChange, Assembly-CSharp
         m_MethodName: chage4
         m_Mode: 1
@@ -3573,7 +3573,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 80042678}
         m_TargetAssemblyTypeName: SceneChange, Assembly-CSharp
         m_MethodName: chage3
         m_Mode: 1

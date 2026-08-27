@@ -42,6 +42,7 @@ public class GameManager : MonoBehaviour
         _AudioManage.audioSource.clip = Audio1;
         offset = new Vector3(10, 1.9f, 1);
         whatnote = 1;
+        Debug.Log("니애미");
     }
     public void Noteposition2()
     {
@@ -51,10 +52,18 @@ public class GameManager : MonoBehaviour
     }
     public void Noteposition3()
     {
-        
+        _AudioManage.audioSource.clip = Audio3;
+        offset = new Vector3(10, 2.5f, 1);
+        whatnote = 2;
     }
-    
-    
+    public void Noteposition4()
+    {
+        _AudioManage.audioSource.clip = Audio4;
+        offset = new Vector3(10, 2.5f, 1);
+        whatnote = 2;
+    }
+
+
     public void MData()
 {
     rhythmData.Add(1.045329f);

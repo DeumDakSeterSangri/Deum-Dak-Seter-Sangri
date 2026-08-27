@@ -9,6 +9,7 @@ public class AudioManage : MonoBehaviour
     private textchanger1 textchanger1;
     private  textchanger2 textchanger2;
     private  textchanger3 textchanger3;
+    private textchanger4 textchanger4;
     private GameManager gameManager;
     private ScoreChanger _ScoreChanger;
     public AudioSource audioSource;
@@ -23,6 +24,7 @@ public class AudioManage : MonoBehaviour
         textchanger1 = FindObjectOfType<textchanger1>();
         textchanger2 = FindObjectOfType<textchanger2>();
         textchanger3 = FindObjectOfType<textchanger3>();
+        textchanger4 = FindObjectOfType<textchanger4>();
         audioSource = GetComponent<AudioSource>();
         SceneChage = FindObjectOfType<SceneChange>();
         _ScoreChanger = FindObjectOfType<ScoreChanger>();
@@ -46,8 +48,14 @@ public class AudioManage : MonoBehaviour
             {
                 textchanger3.soso();
             }
-            s5 = true;
+            else if (S123 ==4)
+            {
+                textchanger4.soso();
+            }
+                s5 = true;
+            Debug.Log("하시발");
             audioSource.Play();
+            Debug.Log("으아아");
         }
     }
 

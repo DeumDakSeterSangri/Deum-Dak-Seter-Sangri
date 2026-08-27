@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: a3a04c37e2af1da45989d5745453339e
+guid: adab4a3000edaf84a804280b2a02954a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6919149657140564915
-    second: TeongTeongE_0
-  - first:
-      213: 7916885608476866212
-    second: TeongTeongE_1
+      213: -6592301879340589927
+    second: 7614b2404927fb79_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -78,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -103,35 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TeongTeongE_0
+      name: 7614b2404927fb79_0
       rect:
         serializedVersion: 2
-        x: 163
-        y: 511
-        width: 186
-        height: 510
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3b311a534f1c50060800000000000000
-      internalID: 6919149657140564915
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TeongTeongE_1
-      rect:
-        serializedVersion: 2
-        x: 163
+        x: 1
         y: 0
-        width: 186
-        height: 504
+        width: 30
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4a67aa4f38d6edd60800000000000000
-      internalID: 7916885608476866212
+      spriteID: 99c93c54e507384a0800000000000000
+      internalID: -6592301879340589927
       vertices: []
       indices: 
       edges: []
@@ -160,8 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      TeongTeongE_0: 6919149657140564915
-      TeongTeongE_1: 7916885608476866212
+      7614b2404927fb79_0: -6592301879340589927
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
